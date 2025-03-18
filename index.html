@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHKeeper</title>
+    <link rel="icon" type="image/svg" href="./images/favicon.svg">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./index.js" defer></script>
+    <script src="./validation.js" defer></script>
+  </head>
+
+  <body class="body">
+
+    <!-- Header -->
+
+    <header class="header">
+      <a href="#" class="header__logo-link">
+        <img src="./images/Logo.svg" alt="SHKeeper" class="header__logo" />
+      </a>
+
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#tariffs" class="header__link">Tariffs</a>
+          </li>
+          <li class="header__item">
+            <a href="#features" class="header__link">Features</a>
+          </li>
+          <li class="header__item">
+            <a href="#integrations" class="header__link">Integrations</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Resources</a>
+          </li>
+          <li class="header__item">
+            <a href="#contact" class="header__link">Contact us</a>
+          </li>
+        </ul>
+
+        <div class="header__burger" id="burger-icon">
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+        </div>
+
+        <a href="https://github.com/vsys-host/shkeeper.io" target="_blank">
+          <div class="header__button link-button">Go to GitHub</div>
+        </a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Hero section -->
+
+      <section class="hero-section">
+        <div class="hero-section__info">
+          <h1 class="hero-section__title">
+            Set Up Accepting Payments in Multiple Cryptocurrencies With No Fees
+            for Your E-commerce
+          </h1>
+
+          <p class="hero-section__description">
+            SHKeeper — is a self-hosted and open-source cryptocurrency payment
+            processor. The unique combination of gateway and merchant. It allows
+            you to accept payments in cryptocurrency.
+          </p>
+
+          <div class="hero-section__buttons">
+            <a href="#" class="link-button">Get Started</a>
+            <a href="#integrations" class="hero-section__button--how-it-works link-button"
+              >How It Works</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-section__scene">
+          <img
+            src="./images/coins-section/coin1.png"
+            srcset="./images/coins-section/coin1x2.png 2x"
+            alt="Crypto coin"
+            class="hero-section__coin"
+          />
+          <img
+            src="./images/coins-section/coin2.png"
+            srcset="./images/coins-section/coin2x2.png 2x"
+            alt="Crypto coin"
+            class="hero-section__coin"
+          />
+          <img
+            src="./images/coins-section/coin3.png"
+            srcset="./images/coins-section/coin3x2.png 2x"
+            alt="Crypto coin"
+            class="hero-section__coin"
+          />
+          <img
+            src="./images/coins-section/coin4.png"
+            srcset="./images/coins-section/coin4x2.png 2x"
+            alt="Crypto coin"
+            class="hero-section__coin"
+          />
+          <img
+            src="./images/coins-section/coin5.png"
+            srcset="./images/coins-section/coin5x2.png 2x"
+            alt="Crypto coin"
+            class="hero-section__coin"
+          />
+          <img
+            src="./images/coins-section/coin6.png"
+            srcset="./images/coins-section/coin6x2.png 2x"
+            alt="Crypto coin"
+            class="hero-section__coin"
+          />
+          <img
+            src="./images/coins-section/wallet.png"
+            srcset="./images/coins-section/walletx2.png 2x"
+            alt="Wallet"
+            class="hero-section__wallet"
+          />
+          <img
+            src="./images/coins-section/circles.png"
+            alt="Decorative circles"
+            class="hero-section__circles"
+          />
+          <img
+            src="./images/Ellipses/EllipseXS.png"
+            srcset="./images/Ellipses/EllipseXSx2.png 2x"
+            alt="Decorative element"
+            class="hero-section__ellipseXS"
+          />
+          <img
+            src="./images/Ellipses/EllipseS.png"
+            srcset="./images/Ellipses/EllipseSx2.png 2x"
+            alt="Decorative element"
+            class="hero-section__ellipseS"
+          />
+          <img
+            src="./images/Ellipses/EllipseM.png"
+            srcset="./images/Ellipses/EllipseMx2.png 2x"
+            alt="Decorative element"
+            class="hero-section__ellipseM"
+          />
+        </div>
+      </section>
+
+      <!-- Features section -->
+
+      <section class="features-section" id="features">
+        <div class="features-section__item">
+          <div class="features-section__card">
+            <img
+              src="./images/features-section/Mult-crypt.svg"
+              alt="Cryptocurrencies icon"
+              class="features-section__image"
+            />
+          </div>
+          <p class="features-section__description">Multiple Cryptocurrencies</p>
+        </div>
+
+        <div class="features-section__item">
+          <div class="features-section__card">
+            <img
+              src="./images/features-section/No-fee.svg"
+              alt="No Transaction Fees icon"
+              class="features-section__image"
+            />
+          </div>
+          <p class="features-section__description">No Transaction Fees</p>
+        </div>
+
+        <div class="features-section__item">
+          <div class="features-section__card">
+            <img
+              src="./images/features-section/No-3d-party.svg"
+              alt="No Third Parties icon"
+              class="features-section__image"
+            />
+          </div>
+          <p class="features-section__description">No Third Parties</p>
+        </div>
+      </section>
+
+      <!-- Integrations section -->
+
+      <section class="integrations-section" id="integrations">
+        <h2 class="integrations-section__title section-title">
+          How to Use SHKeeper?
+        </h2>
+        <p class="integrations-section__description">
+          SHKeeper equips you with extra efficiency in integrating crypto
+          payment service with any other existing systems.
+        </p>
+
+        <div class="integrations-section__cards-wrapper">
+          <div class="integrations-section__card">
+            <img
+              src="./images/integrations-section/Int-CMS.svg"
+              alt="Integrate With Popular CMS and Plug-Ins icon"
+              class="integrations-section__image"
+            />
+            <div>
+              <h3 class="integrations-section__card-title">
+                Integrate With Popular CMS and Plug-Ins
+              </h3>
+              <p class="integrations-section__card-description">
+                SHKeeper is available for integration with any of the most
+                popular CMSs, plugins, and billing systems. This is a completely
+                digitalized and decentralized option. So you don't need to rely
+                on third parties. The module for WordPress CMS and WooCommerce
+                is available for free.
+              </p>
+            </div>
+          </div>
+
+          <div class="integrations-section__card">
+            <img
+              src="./images/integrations-section/Int-E-com.svg"
+              alt="Integrate With Any E-commerce icon"
+              class="integrations-section__image"
+            />
+            <div>
+              <h3 class="integrations-section__card-title">
+                Integrate With Any E-commerce
+              </h3>
+              <p class="integrations-section__card-description">
+                You can install SHKeeper yourself in your E-commerce project to
+                accept cryptocurrency payments or contact us for help with
+                installation, configuration, or maintenance. 0% commission and a
+                high level of security.
+              </p>
+            </div>
+          </div>
+
+          <div class="integrations-section__card">
+            <img
+              src="./images/integrations-section/Int-Code.svg"
+              alt="Integrate With Your Own Code or Product icon"
+              class="integrations-section__image"
+            />
+            <div>
+              <h3 class="integrations-section__card-title">
+                Integrate With Your Own Code or Product
+              </h3>
+              <p class="integrations-section__card-description">
+                SHKeeper is applicable to any product or code. It's an
+                open-source crypto-processor and is available to everyone
+                without the need for payment, and does not charge a transaction
+                fee. You can also contact us if you need to fine-tune SHKeeper
+                for your product.
+              </p>
+            </div>
+          </div>
+
+          <div class="integrations-section__card">
+            <img
+              src="./images/integrations-section/Int-Wallet.svg"
+              alt="Use as Your Own Wallet icon"
+              class="integrations-section__image"
+            />
+            <div>
+              <h3 class="integrations-section__card-title">
+                Use as Your Own Wallet
+              </h3>
+              <p class="integrations-section__card-description">
+                It is quite possible to use SHKeeper as a regular multi-currency
+                crypto wallet. It can be accessed at any time using your private
+                key. It allows you to back up the blockchain key, whereas you
+                can also restore the key through your other crypto wallets.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tariffs section -->
+
+      <section class="tariffs-section" id="tariffs">
+        <h2 class="section-title">Tariff Plans</h2>
+
+        <div class="tariffs-section__cards-wrapper">
+          <div class="tariffs-section__card">
+            <img
+              src="./images/tariff-section/2.png"
+              srcset="./images/tariff-section/2x2.png 2x"
+              alt="Integration & Support icon"
+              class="tariffs-section__image tariffs-section__image--2"
+            />
+            <h3 class="tariffs-section__card-title">
+              Integration &amp; Support
+            </h3>
+            <div class="tariffs-section__price">
+              $2 <span class="tariffs-section__per-price">/ per year</span>
+            </div>
+            <ul class="tariffs-section__list">
+              <li class="tariffs-section__item">
+                Payment processor integration
+              </li>
+              <li class="tariffs-section__item">Payment processor support</li>
+              <li class="tariffs-section__item">All features are available</li>
+              <li class="tariffs-section__item">Hosting services available</li>
+              <li class="tariffs-section__item">Personal customer manager</li>
+            </ul>
+            <a href="#contact" class="tariffs-section-button">Contact Us</a>
+          </div>
+
+          <div class="tariffs-section__card tariffs-section__card--open-source">
+            <img
+              src="./images/tariff-section/0.png"
+              srcset="./images/tariff-section/0x2.png 2x"
+              alt=" Open-Source icon"
+              class="tariffs-section__image tariffs-section__image--0"
+            />
+            <h3 class="tariffs-section__card-title">Open-Source</h3>
+            <div class="tariffs-section__price">$0</div>
+            <ul class="tariffs-section__list">
+              <li class="tariffs-section__item">
+                <span class="tariffs-section__item--OS"
+                  >Self Installation and Launching</span
+                >
+                <br />
+                <span class="tariffs-section__item--OS-description"
+                  >Create the module yourself using API. Detailed documentation
+                  on request. For WooCommerce and WordPress, the module is
+                  available for free.</span
+                >
+              </li>
+              <li class="tariffs-section__item">
+                <span class="tariffs-section__item--OS"
+                  >Wallets Auto-Detection</span
+                >
+                <br />
+                <span class="tariffs-section__item--OS-description"
+                  >SHKeeper detects your crypto wallets. Also, it's possible to
+                  make payments into other wallets or crypto stock
+                  exchanges.</span
+                >
+              </li>
+              <li class="tariffs-section__item">
+                <span class="tariffs-section__item--OS"
+                  >Receive and Make Payments</span
+                >
+                <br />
+                <span class="tariffs-section__item--OS-description"
+                  >Start accepting all popular cryptocurrencies, without
+                  intermediaries and fees.</span
+                >
+              </li>
+            </ul>
+            <a
+              href="https://github.com/vsys-host/shkeeper.io" target="_blank"
+              class="tariffs-section-button"
+              >Go to GitHub</a
+            >
+          </div>
+
+          <div class="tariffs-section__card">
+            <img
+              src="./images/tariff-section/on-req.png"
+              srcset="./images/tariff-section/on-reqx2.png 2x"
+              alt=" Custom Solution icon"
+              class="tariffs-section__image tariffs-section__image--req"
+            />
+            <h3 class="tariffs-section__card-title">Custom Solution</h3>
+            <div class="tariffs-section__price--on-req">Pricing on request</div>
+            <ul class="tariffs-section__list">
+              <li class="tariffs-section__item">Detailed product analysis</li>
+              <li class="tariffs-section__item">Hosting services available</li>
+              <li class="tariffs-section__item">Custom solution set-up</li>
+              <li class="tariffs-section__item">
+                Advanced issues and features
+              </li>
+              <li class="tariffs-section__item">
+                Integration and support features
+              </li>
+            </ul>
+            <a href="#contact" class="tariffs-section-button">Contact Us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About SHKeeper section -->
+
+      <section class="about-section" id="about">
+        <h2 class="section-title">About SHKeeper</h2>
+
+        <div class="about-section__wrapper">
+          <img
+            src="./images/About-SHKeeper-section/screenshots.png"
+            srcset="./images/About-SHKeeper-section/screenshotsx2.png 2x"
+            alt="SHKeeper screenshots"
+            class="about-section__image"
+          />
+          <div class="about-section__info">
+            <p class="about-section__text">
+              Our mission is to help e-commerce businesses move to a new level
+              by accepting crypto payments using customizable technology.
+            </p>
+            <br />
+            <p class="about-section__text">
+              SHKeeper an open-source so that other businesses can move to a new
+              level and stand out from the competition. It's free and can be
+              hosted on your servers or on Virtual Systems servers.
+            </p>
+            <br />
+            <p class="about-section__text">
+              If you need help with integration, write to us. We will be happy
+              to help you! We can also write a custom solution for you.
+            </p>
+            <a href="" class="link-button">Explore Virtual Systems</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Roadmap section -->
+
+      <section class="roadmap-section" id="roadmap">
+    <h2 class="section-title roadmap__section-title">Road Map</h2>
+    
+    <div class="roadmap__timeline">
+        <div class="roadmap__point roadmap__point--medium active" onclick="toggleInfo(this)">
+            <div class="roadmap__info"><span class="roadmap__info-date">January 2022</span>SHKeeper's release for Virtual Systems. Installation and customization for our goals.</div>
+        </div>
+        <div class="roadmap__point roadmap__point--small" onclick="toggleInfo(this)">
+            <div class="roadmap__info"><span class="roadmap__info-date">May 2022</span>Advance improvement and release in open-source.</div>
+        </div>
+        <div class="roadmap__point roadmap__point--large" onclick="toggleInfo(this)">
+            <div class="roadmap__info"><span class="roadmap__info-date">July 2022</span>Possibility to create invoices on a web version.</div>
+        </div>
+        <div class="roadmap__point roadmap__point--small active" onclick="toggleInfo(this)">
+            <div class="roadmap__info"><span class="roadmap__info-date">September 2022</span>USDT will be added for two networks (TRC-20 and ERC-20).</div>
+        </div>
+        <div class="roadmap__point roadmap__point--medium" onclick="toggleInfo(this)">
+            <div class="roadmap__info"><span class="roadmap__info-date">November 2022</span>Adding the ability to import a key.</div>
+        </div>
+    </div>
+</section>
+
+      <!-- FAQ section -->
+
+      <section class="faq-section" id="faq">
+        <h2 class="section-title">FAQ</h2>
+
+        <div class="faq-section__wrapper">
+          <div class="faq-section__item">
+            <button class="faq-section__question">
+              What is SHKeeper?
+              <span class="faq-section__icon">+</span>
+            </button>
+            <p class="faq-section__answer">
+              SHKeeper is a self-hosted and open-source cryptocurrency payment
+              processor. The unique combination of gateway and merchant. It
+              allows you to accept payments in cryptocurrency.
+            </p>
+          </div>
+
+          <div class="faq-section__item">
+            <button class="faq-section__question">
+              Who Can Use SHKeeper?
+              <span class="faq-section__icon">+</span>
+            </button>
+            <p class="faq-section__answer">
+              SHKeeper is a multifunctional software with many variations of
+              exploitation that can solve problems for different types of users.
+              The processor can be useful for eCommerce project owners, content
+              creators, Lightning network users, exchanges, hosting providers,
+              etc.
+            </p>
+          </div>
+
+          <div class="faq-section__item">
+            <button class="faq-section__question">
+              How to Install SHKeeper?
+              <span class="faq-section__icon">+</span>
+            </button>
+            <p class="faq-section__answer">
+              SHKeeper can be deployed in multiple ways. It is recommended to
+              use Helm for deployment via Docker. Additionally, ready-made
+              modules are available for integration with platforms such as
+              WooCommerce, WordPress, and WHMCS. If you need assistance with
+              integration or setup, you can contact SHKeeper’s support team.
+            </p>
+          </div>
+
+          <div class="faq-section__item">
+            <button class="faq-section__question">
+              Do I Need to Have an Online Store to Use SHKeeper?
+              <span class="faq-section__icon">+</span>
+            </button>
+            <p class="faq-section__answer">
+              No, SHKeeper is a multifunctional software solution with various
+              use cases. It can be useful for different types of users,
+              including merchants, content creators, Lightning Network users,
+              exchanges, hosting providers, and more.
+            </p>
+          </div>
+
+          <div class="faq-section__item">
+            <button class="faq-section__question">
+              How Does SHKeeper Create a New Address for Each Invoice?
+              <span class="faq-section__icon">+</span>
+            </button>
+            <p class="faq-section__answer">
+              SHKeeper is a self-hosted and open-source cryptocurrency payment
+              processor. It generates unique addresses for each invoice,
+              ensuring secure and private transactions.
+            </p>
+          </div>
+
+          <div class="faq-section__item">
+            <button class="faq-section__question">
+              What if I have a problem paying an invoice?
+              <span class="faq-section__icon">+</span>
+            </button>
+            <p class="faq-section__answer">
+              If you experience issues while paying an invoice, it is
+              recommended to reach out to the SHKeeper community listed on the
+              official website. For technical concerns, you can also check the
+              "Issues" section on GitHub.
+            </p>
+          </div>
+
+          <div class="faq-section__item">
+            <button class="faq-section__question">
+              How Much Does It Cost to Run the SHKeeper?
+              <span class="faq-section__icon">+</span>
+            </button>
+            <p class="faq-section__answer">
+              Once you download and install SHKeeper on your server, you are
+              responsible for any associated fees and operational costs. These
+              may include network fees paid to the blockchain for transaction
+              confirmations. Since SHKeeper is a self-hosted solution, the cost
+              of running it depends on your server configuration and the
+              selected cryptocurrency networks.
+            </p>
+          </div>
+
+          <div class="faq-section__item">
+            <button class="faq-section__question">
+              What are the Minimal Requirements to Server Configuration for
+              SHKeeper?
+              <span class="faq-section__icon">+</span>
+            </button>
+            <p class="faq-section__answer">
+              To run SHKeeper, the minimum server requirements depend on the
+              cryptocurrencies you support. Generally, you need at least 8 CPU
+              cores, 8 GB RAM, and 100 GB SSD. For Ethereum and Binance Smart
+              Chain, higher specs like 16+ CPU cores, 16-64 GB RAM, and 1-3 TB
+              SSD are recommended. Running full nodes for certain blockchains
+              requires additional resources.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact us section -->
+
+      <section class="contact-section" id="contact">
+        <h2 class="section-title contact-section__title">
+          WOULD YOU LIKE TO ASK A QUESTION?
+        </h2>
+        <p class="contact-section__description">
+          Leave us a message &amp; we will reply shortly. <br />
+          Support available <br />
+          24/7/365
+        </p>
+
+        <form action="#" class="contact-section__form">
+          <div class="contact-section__input-container">
+            <label for="name" class="contact-section__label">
+              <img
+                src="./images/form-icons/user.svg"
+                alt="User icon"
+                class="contact-section__icon"
+              />
+            </label>
+            <input
+              required
+              id="name"
+              type="text"
+              class="contact-section__input"
+              placeholder="Your Name"
+            />
+          </div>
+
+          <div class="contact-section__input-container">
+            <label for="email" class="contact-section__label">
+              <img
+                src="./images/form-icons/envelope.svg"
+                alt="Email icon"
+                class="contact-section__icon"
+              />
+            </label>
+            <input
+              required
+              id="email"
+              type="email"
+              class="contact-section__input"
+              placeholder="Your Email"
+            />
+          </div>
+
+          <div class="contact-section__input-container">
+            <label for="message" class="contact-section__label">
+              <img
+                src="./images/form-icons/message.svg"
+                alt="Message icon"
+                class="contact-section__icon"
+              />
+            </label>
+            <textarea
+              required
+              id="message"
+              class="contact-section__textarea"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="contact-section__button link-button">
+            Contact Us
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__describe">
+          <a href="#" class="footer__logo-link">
+            <img src="./images/Logo.svg" alt="SHKeeper Logo" class="footer__logo" />
+          </a>
+          <p class="footer__description">
+            SHKeeper - open-source cryptocurrency payment processor with
+            multiply cryptocurrencies available. It will take your E-commerce to
+            a new level.
+          </p>
+        </div>
+
+        <div class="footer__nav">
+          <div class="footer__nav-column">
+            <h3 class="footer__nav-title">SOFTWARE</h3>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#integrations" class="footer__nav-link">How to Use</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#tariffs" class="footer__nav-link">Tariff Plans</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#features" class="footer__nav-link">Features</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#integrations" class="footer__nav-link">Integrations</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__nav-column">
+            <h3 class="footer__nav-title">RESOURCES</h3>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Knowledge Base</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__nav-column">
+            <h3 class="footer__nav-title">Join Our Community</h3>
+            <ul class="footer__nav-list footer__nav-list--social">
+              <li class="footer__nav-item--social">
+                <a href="https://www.reddit.com/user/shkeeper_io/" target="_blank" class="footer__nav-link footer__nav-link">
+                  <img src="./images/footer-icons/reddit-icon.svg" alt="Reddit icon">
+                </a>
+              </li>
+              <li class="footer__nav-item--social">
+                <a href="https://medium.com/@shkeeper.io" target="_blank" class="footer__nav-link">
+                  <img src="./images/footer-icons/medium-icon.svg" alt="Medium icon">
+                </a>
+              </li>
+              <li class="footer__nav-item--social">
+                <a href="https://x.com/shkeeper_io" target="_blank" class="footer__nav-link">
+                  <img src="./images/footer-icons/twitter-icon.svg" alt="Twitter icon">
+                </a>
+              </li>
+              <li class="footer__nav-item--social">
+                <a href="https://www.facebook.com/shkeeper.io" target="_blank" class="footer__nav-link">
+                  <img src="./images/footer-icons/facebook-icon.svg" alt="Facebook icon">
+                </a>
+              </li>
+              <li class="footer__nav-item--social">
+                <a href="https://www.linkedin.com/company/shkeeper/" target="_blank" class="footer__nav-link">
+                  <img src="./images/footer-icons/LIn-icon.svg" alt="LinkedIn icon">
+                </a>
+              </li>
+              <li class="footer__nav-item--social">
+                <a href="https://www.youtube.com/channel/UCfJp6tIaiJ2bchDyF-LFnaw" target="_blank" class="footer__nav-link">
+                  <img src="./images/footer-icons/youtube-icon.svg" alt="YouTube icon">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="footer__line" />
+        <p class="footer__rights">© 2022 Shkeeper. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

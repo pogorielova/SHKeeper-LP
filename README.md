@@ -5,6 +5,7 @@
 ## 🛠 Technologies Used
 - HTML5
 - CSS (Flexbox, Grid, Transitions, Animations) with BEM
+- JavaScript (DOM interactions, form validation)
 
 ## 🖥️ Setup & Installation
 1. Clone this repository:
